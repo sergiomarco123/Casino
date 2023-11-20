@@ -13,7 +13,7 @@
         setcookie("visitas",$_COOKIE["visitas"]+1, time()+60*30);
         $numeroVisita= "Esta es su visita numero: " . $_COOKIE["visitas"]. " en la última mrdia hora";
     } else {
-        setcookie("visitas", 1, time()+60*30);//guarda la coockie 30 minutos con valor 0
+        setcookie("visitas", 1, time()+60*30);//guarda la coockie 30 minutos con valor 1
         $numeroVisita="Es su primera vez en esta web en la última media hora";
     }
 
